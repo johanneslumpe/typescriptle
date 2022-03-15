@@ -15,3 +15,11 @@ TypeScript has such a great type system, that it made it almost trivially easy t
 ## Why?
 
 Purely because I thought it would be fun to implement a Wordle-like game in TypeScript's type system.
+
+## FAQ
+
+### Why is there an long empty string before the first guess?
+Just so I could get a better alignment in my sidebar, feel free to change or remove it :)
+
+### Does the game ensure that you don't guess more than six times?
+No, nothing of the sort is implemented, be honest with yourself!
