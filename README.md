@@ -10,7 +10,7 @@ From here on pick a random number in `config.d.ts` (the max is 12947) and start 
 
 ## How?
 
-TypeScript has such a great type system, that it made it almost trivially easy to implement this. The main two things this project relies on are template strings and recursive conditional types. Checkout the annotated source in `typescriptle.d.ts` - that's what you're here for anyways if you're reading this ;).
+TypeScript has such a great type system, that it made it almost trivially easy to implement this. The main two things this project relies on are template strings and recursive conditional types. Check out the annotated source in `typescriptle.d.ts` - that's what you're here for anyways if you're reading this ;).
 
 ## Why?
 
