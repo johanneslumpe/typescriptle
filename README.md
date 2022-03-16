@@ -10,7 +10,7 @@ From here on pick a random number in `config.d.ts` (the max is 12947) and start 
 
 ## How?
 
-TypeScript has such a great type system, that it made it almost trivially easy to implement this. The main two things this project relies on are template strings and recursive conditional types. Checkout the source in `typescriptle.d.ts` - that's what you're here for anyways if you're reading this ;).
+TypeScript has such a great type system, that it made it almost trivially easy to implement this. The main two things this project relies on are template strings and recursive conditional types. Checkout the annotated source in `typescriptle.d.ts` - that's what you're here for anyways if you're reading this ;).
 
 ## Why?
 
@@ -18,8 +18,6 @@ Purely because I thought it would be fun to implement a Wordle-like game in Type
 
 ## FAQ
 
-### Why is there an long empty string before the first guess?
-Just so I could get a better alignment in my sidebar, feel free to change or remove it :)
-
 ### Does the game ensure that you don't guess more than six times?
-No, nothing of the sort is implemented, be honest with yourself!
+
+Yes it does. `Guess` does not accept more than six strings for its input tuple. Nothing stops you from using the `Guess` type multiple times though ;)
