@@ -34,7 +34,7 @@ expectType<[" 🟩 a ", " ⬛ x ", " 🟨 a ", " ⬛ f "]>(T70);
 declare const T80: CompareWords<["x", "a", "a", "f"], ["a", "b", "b", "a"]>;
 expectType<[" ⬛ x ", " 🟨 a ", " 🟨 a ", " ⬛ f "]>(T80);
 
-// @ts-expect-error For some reason TS things the type instantiation here is possibly infinite.
+// @ts-expect-error For some reason TS thinks the type instantiation here is possibly infinite.
 // We are getting the correct result type though, so for now let's mute this. It does not seem
 // to happen for all word combinations.
 declare const T90: CompareWords<
