@@ -1,0 +1,24 @@
+{
+  "name": "@johanneslumpe/typescriptle",
+  "version": "1.0.0",
+  "description": "Wordle in TypeScript's type system",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanneslumpe/typescriptle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/johanneslumpe/typescriptle/issues"
+  },
+  "homepage": "https://github.com/johanneslumpe/typescriptle#readme",
+  "devDependencies": {
+    "tsd": "^0.19.1"
+  }
+}
